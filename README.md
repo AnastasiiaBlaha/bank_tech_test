@@ -58,6 +58,7 @@ So I can check how much money I have on my account,
 I would like to print a bank statement.
 ```
 2. Diagram - how many classes - SOLID - Single responsibility principle
+
 3. TDD red-green-refactor:
    - implementing features
      - open a bank account
@@ -65,4 +66,5 @@ I would like to print a bank statement.
      - make a withdrawal
      - raise error if deposit < withdrawal
      - print a statement
+     
 4. REFACTOR, keep the code clean
