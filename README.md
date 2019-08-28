@@ -35,3 +35,34 @@ date || credit || debit || balance
 
 ![Tracking pixel](https://githubanalytics.herokuapp.com/course/individual_challenges/bank_tech_test.md)
 
+1. Write out User Stories
+```
+As a client,
+I am looking for a reliable bank,
+I want to open a bank account.
+
+As a client,
+So that I can store my savings,
+I want to deposit my savings on my bank account.
+
+As a client,
+So that I can spend my money,
+I want to withdraw money from my bank account.
+
+As a bank,
+I want to not let a client to withdraw more money than they actually have,
+I want to check whether the client has enough money.
+
+As a client,
+So I can check how much money I have on my account,
+I would like to print a bank statement.
+```
+2. Diagram - how many classes - SOLID - Single responsibility principle
+3. TDD red-green-refactor:
+   - implementing features
+     - open a bank account
+     - make a deposit
+     - make a withdrawal
+     - raise error if deposit < withdrawal
+     - print a statement
+4. REFACTOR, keep the code clean
